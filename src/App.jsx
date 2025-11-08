@@ -1,7 +1,10 @@
 import HeroHeader from './components/HeroHeader'
-import ArchitectureSchema from './components/ArchitectureSchema'
 import DashboardPreview from './components/DashboardPreview'
+import ArchitectureSchema from './components/ArchitectureSchema'
 import RoleBasedViews from './components/RoleBasedViews'
+import PricingPlans from './components/PricingPlans'
+import CTASection from './components/CTASection'
+import FAQ from './components/FAQ'
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
       <DashboardPreview />
       <ArchitectureSchema />
       <RoleBasedViews />
+      <PricingPlans />
+      <CTASection />
+      <FAQ />
       <footer className="max-w-7xl mx-auto px-6 pb-16 pt-10">
         <div className="rounded-2xl border border-gray-200 bg-white p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
